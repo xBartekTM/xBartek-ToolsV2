@@ -1,0 +1,122 @@
+name: xBartek_ToolsV2
+main: pl.xBartekTools.ToolsPlugin
+version: 2.0
+author: xBartek
+commands:
+  list:
+    description: Sprawdzanie ilosci graczy online.
+    aliases: who
+  chat:
+    description: Zarzadzanie chatem.
+    aliases: c,cc
+  toolsreload:
+    description: Przeladowanie toolsa.
+    aliases: tr,zreloadujtoolsy
+  pomoc:
+    description: Pomoc dotyczaca komend itp.
+  broadcast:
+    description: Globalna wiadomosc.
+    aliases: bcast
+  clearinventory:
+    description: Czyszczenie ekwipunku.
+    aliases: ci
+  day:
+    description: Ustawianie dnia na serwerze.
+  enderchest:
+    description: Otwieranie swojego enderchesta.
+  invsee:
+    description: Przegladanie inventory innego gracza.
+  endersee:
+    description: Przegladanie enderchesta innego gracza.
+  enderclear:
+    description: Czyszczenie enderchesta innego gracza.
+  fly:
+    description: Ustawienia latania.
+  gamemode:
+    description: Zmiana trybu gry.
+    aliases: gm,egm
+  hat:
+    description: Zakladanie przedmiotu na glowe.
+  heal:
+    description: Leczenie graczy.
+  tell:
+    description: Prywatne wiadomosci.
+    aliases: [msg, m]
+  reply:
+    description: Odpisywanie na PW.
+    aliases: [r]
+  cobble:
+    description: Usuwanie cobbla z EQ.
+  tp:
+    description: Teleportacja do graczy.
+  tphere:
+    description: Teleportowanie do siebie graczy.
+    aliases: [s]
+  komendygildie:
+    description: Komendy dot. gildii.
+  stone:
+    description: Informacje o dropie.
+    aliases: [kamien, drop, surowce]
+  sklepsms:
+    description: Informacja o zakupie rangi VIP.
+
+  enchant:
+    permission: xBartek.tools.enchant
+    description: Nakladanie zaklec na przedmioty.
+  item:
+    aliases: [giveitem, i]
+    permission: xBartek.tools.item
+    description: Otrzymywanie przedmiotu.
+  repair:
+    permission: xBartek.tools.repair
+    description: Naprawianie ekwipunku.
+  speed:
+    permission: xBartek.tools.speed
+    description: Zmienianie predkosci poruszania sie graczy.
+  time:
+    permission: xBartek.tools.time
+    description: Ustawianie czasu na serwerze.
+  tppos:
+    aliases: [tpposition]
+    permission: xBartek.tools.tppos
+    description: Teleportowanie na dane koordynaty.
+  weather:
+    permission: xBartek.tools.weather
+    description: Zmienianie pogody.
+  time:
+    permission: xBartek.tools.time
+    description: Zmienianie czasu.
+permissions:
+  xBartek.tools.enchant:
+    description: Dostep do komendy /enchant.
+    default: op
+  xBartek.tools.item:
+    description: Dostep do komendy /item.
+    default: op
+  xBartek.tools.plugins:
+    description: Mozliwosc zobaczenia listy plugin'ow.
+    default: op
+  xBartek.tools.repair:
+    description: Dostep do komendy /repair.
+    default: op
+  xBartek.tools.speed:
+    description: Dostep do komendy /speed.
+    default: op
+  xBartek.tools.time:
+    description: Dostep do komendy /time.
+    default: op
+  xBartek.tools.tppos:
+    description: Dostep do komendy /tppos.
+    default: op
+  xBartek.tools.tppos.nodelay:
+    description: Mozliwosc teleportowania sie bez opoznienia.
+    default: op
+  xBartek.tools.weather:
+    description: Dostep do komendy /weather.
+    default: op
+  xBartek.tools.time:
+    description: Dostep do komendy /time.
+    default: op
+  xBartek.tools.socialspy:
+    description: Podglad komend /msg itp.
+    default: op

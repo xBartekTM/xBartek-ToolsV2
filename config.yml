@@ -1,0 +1,44 @@
+################################
+## ------ | xBartek_ToolsV2 | ------ ##
+################################
+config:
+  messages:
+    unknowncommand:
+    - "&7[&c*&7] &7Nieznana komenda!"
+    newplayer: "&8Powitajcie nowego gracza &7%player% &8na serverze &cIS&7HC.PL&8!"
+    adminjoin: "&7Na serwer dolaczyl administrator! (&6%PLAYER%&7)"
+    motd_serverlist: "&f> &7IS&cHC&8.PL &7<> &2&lSV + Gildie &7<> &a&lStart Wkrotce!\n&f> &7&oStan sie najlepszym graczem na serverze!"
+    whitelist: "&cOtwarcie I edycji serwera, wkrotce!"
+    helpmessage:
+    - "&7<&4*&7> &8========== | &6Pomoc &8| ========== &7<&4*&7>"
+    - " &f/gildie - &9Informacje dotyczace gildii"
+    - " &f/drop - &9Informacje na temat dropu"
+    - " &f/ranking - &9Informacje na temat rankingu"
+    - " &f/spawn - &9Pokazuje koordynaty spawnu"
+    - " &f/scrafting - &9Pokazuje crafting perly teleportacyjnej na spawna"
+    - " &f/vip - &9Informacje na temat konta VIP"
+    - " &f/ochrona - &9Pokazuje stan ochrony pvp"
+    - " &f/helpop <tresc> - &9Chat do zglaszania problemow"
+    - "&7<&4*&7> &8========== | &6Pomoc &8| ========== &7<&4*&7>"
+    automessages:
+      automsg1: "&8[&cIS&7HC.PL&8]: &3Obecna granica mapy: &f5000 &3kratek!"
+      automsg2: "&8[&cIS&7HC.PL&8]: &3Sprawdz podstawowe komendy: &f/pomoc&c."
+      automsg3: "&8[&cIS&7HC.PL&8]: &3Zapraszamy rowniez na naszego FanPage: &fwww.facebook.com/xbartek.yt.5."
+      automsg4: "&8[&cIS&7HC.PL&8]: &3Informacje/kupno rangi VIP: &f/vip."
+      automsg5: "&8[&cIS&7HC.PL&8]: &3Kordy spawnu to &fx x, z 60, y x"
+      automsg6: "&8[&cIS&7HC.PL&8]: &3Pamietaj, cheatowanie nie dziala na twoja korzysc, kiedys i tak cie zlapiemy!"
+      automsg7: "&8[&cIS&7HC.PL&8]: &3Chcesz zglosic cheatera, masz problem, pisz &f/helpop"
+      automsg8: "&8[&cIS&7HC.PL&8]: &3Zapraszamy do pogadania na naszym teamspeaku!"
+      automsg9: "&8[&cIS&7HC.PL&8]: &3Ranga &fYT &3dostepna od &f100 &3subskrybcji!"
+      automsg10: "&8[&cIS&7HC.PL&8]: &3Znalazles bug ? Zglos go!"
+      silentjoinleave: true
+      canspawnwither: false
+      socialcommands:
+        - msg
+        - tell
+        - whisper
+        - dg
+        - ds
+        - reply
+        - r
+        - rm
